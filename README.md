@@ -37,10 +37,15 @@ This project is a Basic Network Sniffer created using Python and the Scapy libra
 - Importance of analyzing ports and packet types in cybersecurity.
 
 # | Tool       | Purpose                           |
+
 | ------------ | --------------------------------- |
+
 | Python 3     | Core programming language         |
+
 | Scapy        | Capturing and analyzing packets   |
+
 | Ubuntu (WSL) | Running the Python sniffer safely |
+
 | VS Code      | Writing and editing the code      |
 
 
