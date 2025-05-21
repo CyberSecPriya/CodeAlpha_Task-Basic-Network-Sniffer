@@ -156,7 +156,7 @@ sudo python3 network_sniffer.py
 
 When the script is run, it starts monitoring the network for real-time packets. Each time a packet is captured, it displays the source and destination IP addresses.
 
-
+![Image](https://github.com/user-attachments/assets/0c2446aa-5d77-4bbc-8871-11e9b4123152)
 
 This means a packet was detected from IP ``172.21.218.49 to 185.125.190.56``, but it was not using the TCP protocol-so port numbers were not displayed. The script is programmed to check if the packet is a TCP packet and only then show port numbers. If it’s not TCP, it simply shows the message "Not a TCP packet."
 
