@@ -77,7 +77,7 @@ This project is a Basic Network Sniffer created using Python and the Scapy libra
 
 - The source and destination port numbers (only for TCP packets).
 
-If it's not a TCP packet, it says: “Not a TCP packet.”
+- If it's not a TCP packet, it says: “Not a TCP packet.”
 
 **5. Keeps Running Until You Stop:**
 
