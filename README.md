@@ -117,8 +117,27 @@ sudo python3 network_sniffer.py
 
 - sniffer_env/         ``# Virtual environment``
 
-  
-# How to Run
+   # Setting Up Virtual Environment
+
+   1. Create a virtual environment:
+
+      ``bash``
+
+      python3 -m venv sniffer_env
+
+   2. Activate the virtual environment:
+
+      ``bash``
+
+      source sniffer_env/bin/activate
+
+  3. Install Scapy inside the virtual environment:
+
+     ``bash``
+
+     pip install scapy
+
+ # How to Run
 
 1. Open terminal (Ubuntu/WSL or any Linux environment).
    
@@ -133,3 +152,44 @@ sudo python3 network_sniffer.py
 
    sudo python3 network_sniffer.py
 
+# Output
+
+
+
+# Features Implemented
+- Real-time packet sniffing
+
+- Extracting IP addresses
+
+- Detecting TCP packets
+
+- Displaying port numbers
+
+- Console-friendly output with separators
+
+# References
+
+These resources helped me understand concepts and complete the task successfully:
+
+- [**Scapy Official Documentation**](https://scapy.readthedocs.io/en/latest/):  
+  Used to understand how to capture packets, extract IP and TCP layers, and use the `sniff()` function.
+
+- [**Python Virtual Environments (venv)**](https://docs.python.org/3/library/venv.html):  
+  Helped me create and manage a clean environment to install and run Scapy safely.
+
+- **General research and experimentation**:  
+  I searched online, tested different code snippets, and learned through trial and error to fix issues and improve the script during my internship.
+
+# Note
+
+- This project is created as part of my internship learning tasks and is meant for educational purposes only.
+
+- Packet sniffing should always be done in ethical and legal environments. Always ensure you have permission to monitor a network.
+
+- Run the script with administrator/root privileges to capture network packets properly.
+
+# Conclusion
+
+This project gave me hands-on experience in building a basic network sniffer using Python and Scapy. I learned how network traffic flows and how packets are structured and captured in real time. While the project was challenging at first, it helped me understand the core concepts of packet analysis, TCP/IP layers, and how tools like Scapy work behind the scenes.
+
+Overall, it was a valuable learning experience that improved my confidence and practical skills in cybersecurity and network monitoring.
