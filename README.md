@@ -46,5 +46,43 @@ This project is a Basic Network Sniffer created using Python and the Scapy libra
 
 - VS Code (**Writing and editing the code**).    
 
+#  How It Works 
+**1. Listening to the Network:**
+
+- The program uses a tool called Scapy to “listen” to your network.
+
+- Think of it like a security guard standing at the network gate, watching all the data that comes in and goes out.
+
+**2. Checking Every Packet:**
+
+- Every time a new packet (small piece of data) passes through the network, the program looks inside it.
+
+- It checks if this packet contains IP information (like sender and receiver addresses).
+
+**3. Finding TCP Packets:**
+
+- If the packet is a TCP packet (a common type used in the internet), it also finds:
+
+- The source port (from where the data started).
+
+- The destination port (where the data is going).
+
+- Ports help understand what service or app is being used, like web browsing, email, etc.
+
+**4. Showing the Details:**
+
+- The program then prints:
+
+- The source and destination IP addresses.
+
+- The source and destination port numbers (only for TCP packets).
+
+If it's not a TCP packet, it says: “Not a TCP packet.”
+
+**5. Keeps Running Until You Stop:**
+
+- The tool keeps checking and showing packet details live until you press Ctrl + C to stop it.
+
+
 
 
