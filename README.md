@@ -117,3 +117,19 @@ sudo python3 network_sniffer.py
 
 - sniffer_env/         ``# Virtual environment``
 
+  
+# How to Run
+
+1. Open terminal (Ubuntu/WSL or any Linux environment).
+   
+2. Navigate to the project folder:
+   
+   ```bash
+   cd "your/project/folder/path"
+
+3. Run the Python script with sudo (root access is required for sniffing):
+
+``bash``
+
+ sudo python3 network_sniffer.py
+
