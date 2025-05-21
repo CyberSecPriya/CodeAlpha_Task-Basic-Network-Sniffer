@@ -105,3 +105,15 @@ pip install scapy
 
 sudo python3 network_sniffer.py
 
+# Project Structure
+
+``bash``
+
+**Sniffer_project/**
+
+- network_sniffer.py   # Main script file
+  
+- README.md            # Project documentation
+
+- sniffer_env/         # Virtual environment
+
