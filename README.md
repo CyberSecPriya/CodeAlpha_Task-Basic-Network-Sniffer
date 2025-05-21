@@ -117,21 +117,21 @@ sudo python3 network_sniffer.py
 
 - sniffer_env/         ``# Virtual environment``
 
-   # Setting Up Virtual Environment
+# Setting Up Virtual Environment
 
-   1. Create a virtual environment:
+ 1.  Create a virtual environment:
 
       ``bash``
 
       python3 -m venv sniffer_env
 
-   2. Activate the virtual environment:
+2.  Activate the virtual environment:
 
       ``bash``
 
       source sniffer_env/bin/activate
 
-  3. Install Scapy inside the virtual environment:
+3.  Install Scapy inside the virtual environment:
 
      ``bash``
 
