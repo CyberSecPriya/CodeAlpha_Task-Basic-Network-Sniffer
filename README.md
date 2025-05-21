@@ -86,11 +86,22 @@ This project is a Basic Network Sniffer created using Python and the Scapy libra
 # Installation and Usage Guide
 
 **Step 1: Create Virtual Environment**
+
 ``bash``
 
-``python3 -m venv sniffer_env``
+python3 -m venv sniffer_env
 
-``source sniffer_env/bin/activate``
+source sniffer_env/bin/activate
 
+**Step 2: Install Required Library**
 
+``bash``
+
+pip install scapy
+
+**Step 3: Run the Sniffer (with sudo for permissions)**
+
+``bash``
+
+sudo python3 network_sniffer.py
 
