@@ -111,9 +111,9 @@ sudo python3 network_sniffer.py
 
 **Sniffer_project/**
 
-- network_sniffer.py   # Main script file
+- network_sniffer.py   ``# Main script file``
   
-- README.md            # Project documentation
+- README.md           `` # Project documentation``
 
-- sniffer_env/         # Virtual environment
+- sniffer_env/         ``# Virtual environment``
 
