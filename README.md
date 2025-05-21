@@ -10,7 +10,7 @@
 
 *DURATION* : 4 WEEKS
 
-# Project Overwiew
+# Project Overview
 
 This project is a Basic Network Sniffer created using Python and the Scapy library. It was built as part of my cybersecurity internship to demonstrate the ability to monitor and analyze live network traffic. Through this tool, I gained practical knowledge of how data flows in a network and how packets are structured, which is crucial for roles like Cyber Threat Intelligence Analyst or Network Security Professional.
 
@@ -83,6 +83,12 @@ This project is a Basic Network Sniffer created using Python and the Scapy libra
 
 - The tool keeps checking and showing packet details live until you press Ctrl + C to stop it.
 
+# Installation and Usage Guide
+
+**Step 1: Create Virtual Environment**
+``bash
+python3 -m venv sniffer_env
+source sniffer_env/bin/activate``
 
 
 
