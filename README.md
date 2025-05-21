@@ -154,7 +154,7 @@ sudo python3 network_sniffer.py
 
 # Output
 
-
+![Image](https://github.com/user-attachments/assets/fd4c71a0-7d45-4eab-bcf1-a7cb44d23a2d)
 
 # Features Implemented
 - Real-time packet sniffing
