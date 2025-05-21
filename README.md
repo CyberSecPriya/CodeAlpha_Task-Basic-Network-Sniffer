@@ -129,7 +129,7 @@ sudo python3 network_sniffer.py
 
 3. Run the Python script with sudo (root access is required for sniffing):
 
-``bash``
+  ``bash``
 
- sudo python3 network_sniffer.py
+   sudo python3 network_sniffer.py
 
